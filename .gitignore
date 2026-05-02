@@ -1,0 +1,4 @@
+*.pt
+*.sdf
+benchmark_proof/*.pt
+benchmark_proof/*.sdf

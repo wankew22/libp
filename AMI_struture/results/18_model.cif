@@ -1,0 +1,326 @@
+# By using this file you agree to the legally binding terms of use found at
+# https://github.com/google-deepmind/alphafold3/blob/main/OUTPUT_TERMS_OF_USE.md.
+# To request access to the AlphaFold 3 model parameters, follow the process set
+# out at https://github.com/google-deepmind/alphafold3. You may only use these if
+# received directly from Google. Use is subject to terms of use available at
+# https://github.com/google-deepmind/alphafold3/blob/main/WEIGHTS_TERMS_OF_USE.md.
+data_18
+#
+_entry.id 18
+#
+loop_
+_atom_type.symbol
+C 
+N 
+O 
+#
+loop_
+_audit_author.name
+_audit_author.pdbx_ordinal
+"Google DeepMind" 1 
+"Isomorphic Labs" 2 
+#
+_audit_conform.dict_location https://raw.githubusercontent.com/ihmwg/ModelCIF/master/dist/mmcif_ma.dic
+_audit_conform.dict_name     mmcif_ma.dic
+_audit_conform.dict_version  1.4.5
+#
+_chem_comp.formula        "C6 H15 N4 O2"
+_chem_comp.formula_weight 175.209
+_chem_comp.id             ARG
+_chem_comp.mon_nstd_flag  y
+_chem_comp.name           ARGININE
+_chem_comp.pdbx_smiles    N[C@@H](CCCNC(N)=[NH2+])C(O)=O
+_chem_comp.pdbx_synonyms  ?
+_chem_comp.type           "L-PEPTIDE LINKING"
+#
+_citation.book_publisher          ?
+_citation.country                 UK
+_citation.id                      primary
+_citation.journal_full            Nature
+_citation.journal_id_ASTM         NATUAS
+_citation.journal_id_CSD          0006
+_citation.journal_id_ISSN         0028-0836
+_citation.journal_volume          630
+_citation.page_first              493
+_citation.page_last               500
+_citation.pdbx_database_id_DOI    10.1038/s41586-024-07487-w
+_citation.pdbx_database_id_PubMed 38718835
+_citation.title                   "Accurate structure prediction of biomolecular interactions with AlphaFold 3"
+_citation.year                    2024
+#
+loop_
+_citation_author.citation_id
+_citation_author.name
+_citation_author.ordinal
+primary "Google DeepMind" 1 
+primary "Isomorphic Labs" 2 
+#
+_entity.id               1
+_entity.pdbx_description .
+_entity.type             polymer
+#
+_entity_poly.entity_id      1
+_entity_poly.pdbx_strand_id A
+_entity_poly.type           polypeptide(L)
+#
+loop_
+_entity_poly_seq.entity_id
+_entity_poly_seq.hetero
+_entity_poly_seq.mon_id
+_entity_poly_seq.num
+1 n ARG 1  
+1 n ARG 2  
+1 n ARG 3  
+1 n ARG 4  
+1 n ARG 5  
+1 n ARG 6  
+1 n ARG 7  
+1 n ARG 8  
+1 n ARG 9  
+1 n ARG 10 
+1 n ARG 11 
+#
+_ma_data.content_type "model coordinates"
+_ma_data.id           1
+_ma_data.name         Model
+#
+_ma_model_list.data_id          1
+_ma_model_list.model_group_id   1
+_ma_model_list.model_group_name "AlphaFold-beta-20231127 (3.0.0 @ 2026-02-05 15:47:57)"
+_ma_model_list.model_id         1
+_ma_model_list.model_name       "Top ranked model"
+_ma_model_list.model_type       "Ab initio model"
+_ma_model_list.ordinal_id       1
+#
+loop_
+_ma_protocol_step.method_type
+_ma_protocol_step.ordinal_id
+_ma_protocol_step.protocol_id
+_ma_protocol_step.step_id
+"coevolution MSA" 1 1 1 
+"template search" 2 1 2 
+modeling          3 1 3 
+#
+loop_
+_ma_qa_metric.id
+_ma_qa_metric.mode
+_ma_qa_metric.name
+_ma_qa_metric.software_group_id
+_ma_qa_metric.type
+1 global pLDDT 1 pLDDT 
+2 local  pLDDT 1 pLDDT 
+#
+_ma_qa_metric_global.metric_id    1
+_ma_qa_metric_global.metric_value 87.81
+_ma_qa_metric_global.model_id     1
+_ma_qa_metric_global.ordinal_id   1
+#
+_ma_software_group.group_id    1
+_ma_software_group.ordinal_id  1
+_ma_software_group.software_id 1
+#
+_ma_target_entity.data_id   1
+_ma_target_entity.entity_id 1
+_ma_target_entity.origin    .
+#
+_ma_target_entity_instance.asym_id   A
+_ma_target_entity_instance.details   .
+_ma_target_entity_instance.entity_id 1
+#
+loop_
+_pdbx_data_usage.details
+_pdbx_data_usage.id
+_pdbx_data_usage.type
+_pdbx_data_usage.url
+;Non-commercial use only, by using this file you agree to the terms of use found
+at https://github.com/google-deepmind/alphafold3/blob/main/OUTPUT_TERMS_OF_USE.md.
+To request access to the AlphaFold 3 model parameters, follow the process set
+out at https://github.com/google-deepmind/alphafold3. You may only use these if
+received directly from Google. Use is subject to terms of use available at
+https://github.com/google-deepmind/alphafold3/blob/main/WEIGHTS_TERMS_OF_USE.md.
+
+;
+1 license    https://github.com/google-deepmind/alphafold3/blob/main/OUTPUT_TERMS_OF_USE.md 
+;AlphaFold 3 and its output are not intended for, have not been validated for,
+and are not approved for clinical use. They are provided "as-is" without any
+warranty of any kind, whether expressed or implied. No warranty is given that
+use shall not infringe the rights of any third party.
+
+;
+2 disclaimer ?                                                                              
+#
+loop_
+_pdbx_poly_seq_scheme.asym_id
+_pdbx_poly_seq_scheme.auth_seq_num
+_pdbx_poly_seq_scheme.entity_id
+_pdbx_poly_seq_scheme.hetero
+_pdbx_poly_seq_scheme.mon_id
+_pdbx_poly_seq_scheme.pdb_ins_code
+_pdbx_poly_seq_scheme.pdb_seq_num
+_pdbx_poly_seq_scheme.pdb_strand_id
+_pdbx_poly_seq_scheme.seq_id
+A 1  1 n ARG . 1  A 1  
+A 2  1 n ARG . 2  A 2  
+A 3  1 n ARG . 3  A 3  
+A 4  1 n ARG . 4  A 4  
+A 5  1 n ARG . 5  A 5  
+A 6  1 n ARG . 6  A 6  
+A 7  1 n ARG . 7  A 7  
+A 8  1 n ARG . 8  A 8  
+A 9  1 n ARG . 9  A 9  
+A 10 1 n ARG . 10 A 10 
+A 11 1 n ARG . 11 A 11 
+#
+_software.classification other
+_software.date           ?
+_software.description    "Structure prediction"
+_software.name           AlphaFold
+_software.pdbx_ordinal   1
+_software.type           package
+_software.version        "AlphaFold-beta-20231127 (f08da88ec964e3929b954fe6a042255eca5c52b3367b4f586577e622ac70125c)"
+#
+_struct_asym.entity_id 1
+_struct_asym.id        A
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1   N N   . ARG A 1 1  ? -2.152 -9.731  -0.497 1.00 89.61 1  A 1 
+ATOM 2   C CA  . ARG A 1 1  ? -1.066 -8.819  -0.897 1.00 91.61 1  A 1 
+ATOM 3   C C   . ARG A 1 1  ? -1.446 -8.097  -2.191 1.00 93.19 1  A 1 
+ATOM 4   O O   . ARG A 1 1  ? -0.849 -8.296  -3.235 1.00 91.25 1  A 1 
+ATOM 5   C CB  . ARG A 1 1  ? 0.212  -9.616  -1.104 1.00 90.94 1  A 1 
+ATOM 6   C CG  . ARG A 1 1  ? 0.636  -10.340 0.166  1.00 84.55 1  A 1 
+ATOM 7   C CD  . ARG A 1 1  ? 1.868  -11.174 -0.085 1.00 84.95 1  A 1 
+ATOM 8   N NE  . ARG A 1 1  ? 2.135  -12.066 1.045  1.00 80.04 1  A 1 
+ATOM 9   C CZ  . ARG A 1 1  ? 3.029  -13.038 1.011  1.00 77.92 1  A 1 
+ATOM 10  N NH1 . ARG A 1 1  ? 3.745  -13.249 -0.087 1.00 74.28 1  A 1 
+ATOM 11  N NH2 . ARG A 1 1  ? 3.211  -13.808 2.059  1.00 71.55 1  A 1 
+ATOM 12  N N   . ARG A 1 2  ? -2.405 -7.266  -2.097 1.00 90.02 2  A 1 
+ATOM 13  C CA  . ARG A 1 2  ? -2.893 -6.532  -3.264 1.00 92.30 2  A 1 
+ATOM 14  C C   . ARG A 1 2  ? -2.568 -5.042  -3.186 1.00 93.19 2  A 1 
+ATOM 15  O O   . ARG A 1 2  ? -1.863 -4.511  -4.036 1.00 90.95 2  A 1 
+ATOM 16  C CB  . ARG A 1 2  ? -4.400 -6.744  -3.358 1.00 91.59 2  A 1 
+ATOM 17  C CG  . ARG A 1 2  ? -5.057 -6.552  -2.001 1.00 85.14 2  A 1 
+ATOM 18  C CD  . ARG A 1 2  ? -6.308 -7.352  -1.829 1.00 86.17 2  A 1 
+ATOM 19  N NE  . ARG A 1 2  ? -6.507 -7.698  -0.437 1.00 81.66 2  A 1 
+ATOM 20  C CZ  . ARG A 1 2  ? -7.668 -8.057  0.068  1.00 79.72 2  A 1 
+ATOM 21  N NH1 . ARG A 1 2  ? -8.743 -8.118  -0.704 1.00 76.72 2  A 1 
+ATOM 22  N NH2 . ARG A 1 2  ? -7.766 -8.368  1.335  1.00 72.43 2  A 1 
+ATOM 23  N N   . ARG A 1 3  ? -3.067 -4.362  -2.148 1.00 92.06 3  A 1 
+ATOM 24  C CA  . ARG A 1 3  ? -2.862 -2.916  -1.999 1.00 93.56 3  A 1 
+ATOM 25  C C   . ARG A 1 3  ? -3.000 -2.441  -0.552 1.00 94.26 3  A 1 
+ATOM 26  O O   . ARG A 1 3  ? -3.494 -1.353  -0.298 1.00 92.41 3  A 1 
+ATOM 27  C CB  . ARG A 1 3  ? -3.883 -2.197  -2.857 1.00 92.86 3  A 1 
+ATOM 28  C CG  . ARG A 1 3  ? -5.272 -2.763  -2.602 1.00 86.61 3  A 1 
+ATOM 29  C CD  . ARG A 1 3  ? -6.317 -2.018  -3.367 1.00 87.37 3  A 1 
+ATOM 30  N NE  . ARG A 1 3  ? -7.631 -2.557  -3.075 1.00 83.03 3  A 1 
+ATOM 31  C CZ  . ARG A 1 3  ? -8.754 -1.951  -3.389 1.00 81.31 3  A 1 
+ATOM 32  N NH1 . ARG A 1 3  ? -8.723 -0.785  -4.015 1.00 78.39 3  A 1 
+ATOM 33  N NH2 . ARG A 1 3  ? -9.901 -2.499  -3.085 1.00 74.10 3  A 1 
+ATOM 34  N N   . ARG A 1 4  ? -2.603 -3.224  0.380  1.00 93.22 4  A 1 
+ATOM 35  C CA  . ARG A 1 4  ? -2.718 -2.886  1.804  1.00 94.06 4  A 1 
+ATOM 36  C C   . ARG A 1 4  ? -1.701 -1.824  2.219  1.00 94.54 4  A 1 
+ATOM 37  O O   . ARG A 1 4  ? -2.034 -0.853  2.871  1.00 92.80 4  A 1 
+ATOM 38  C CB  . ARG A 1 4  ? -2.497 -4.152  2.633  1.00 93.41 4  A 1 
+ATOM 39  C CG  . ARG A 1 4  ? -3.737 -4.997  2.710  1.00 87.82 4  A 1 
+ATOM 40  C CD  . ARG A 1 4  ? -4.484 -4.742  3.989  1.00 88.36 4  A 1 
+ATOM 41  N NE  . ARG A 1 4  ? -4.505 -5.921  4.829  1.00 84.38 4  A 1 
+ATOM 42  C CZ  . ARG A 1 4  ? -4.994 -5.934  6.038  1.00 82.62 4  A 1 
+ATOM 43  N NH1 . ARG A 1 4  ? -5.444 -4.819  6.592  1.00 79.98 4  A 1 
+ATOM 44  N NH2 . ARG A 1 4  ? -5.054 -7.054  6.710  1.00 76.05 4  A 1 
+ATOM 45  N N   . ARG A 1 5  ? -0.491 -1.995  1.872  1.00 94.06 5  A 1 
+ATOM 46  C CA  . ARG A 1 5  ? 0.579  -1.068  2.228  1.00 94.39 5  A 1 
+ATOM 47  C C   . ARG A 1 5  ? 0.467  0.266   1.489  1.00 94.77 5  A 1 
+ATOM 48  O O   . ARG A 1 5  ? 0.936  1.284   1.964  1.00 93.29 5  A 1 
+ATOM 49  C CB  . ARG A 1 5  ? 1.923  -1.722  1.927  1.00 93.90 5  A 1 
+ATOM 50  C CG  . ARG A 1 5  ? 2.018  -2.125  0.464  1.00 88.21 5  A 1 
+ATOM 51  C CD  . ARG A 1 5  ? 2.960  -3.274  0.264  1.00 88.84 5  A 1 
+ATOM 52  N NE  . ARG A 1 5  ? 2.736  -3.916  -1.021 1.00 85.50 5  A 1 
+ATOM 53  C CZ  . ARG A 1 5  ? 3.265  -5.071  -1.353 1.00 83.69 5  A 1 
+ATOM 54  N NH1 . ARG A 1 5  ? 4.047  -5.714  -0.510 1.00 81.46 5  A 1 
+ATOM 55  N NH2 . ARG A 1 5  ? 3.011  -5.597  -2.529 1.00 77.59 5  A 1 
+ATOM 56  N N   . ARG A 1 6  ? -0.142 0.282   0.343  1.00 94.44 6  A 1 
+ATOM 57  C CA  . ARG A 1 6  ? -0.293 1.504   -0.454 1.00 94.57 6  A 1 
+ATOM 58  C C   . ARG A 1 6  ? -1.370 2.431   0.102  1.00 94.94 6  A 1 
+ATOM 59  O O   . ARG A 1 6  ? -1.317 3.630   -0.089 1.00 93.57 6  A 1 
+ATOM 60  C CB  . ARG A 1 6  ? -0.664 1.134   -1.884 1.00 94.02 6  A 1 
+ATOM 61  C CG  . ARG A 1 6  ? 0.425  0.351   -2.585 1.00 88.36 6  A 1 
+ATOM 62  C CD  . ARG A 1 6  ? 0.036  0.134   -4.025 1.00 88.76 6  A 1 
+ATOM 63  N NE  . ARG A 1 6  ? 0.965  -0.752  -4.708 1.00 85.53 6  A 1 
+ATOM 64  C CZ  . ARG A 1 6  ? 0.807  -1.139  -5.952 1.00 83.90 6  A 1 
+ATOM 65  N NH1 . ARG A 1 6  ? -0.230 -0.718  -6.656 1.00 81.76 6  A 1 
+ATOM 66  N NH2 . ARG A 1 6  ? 1.675  -1.953  -6.507 1.00 77.67 6  A 1 
+ATOM 67  N N   . ARG A 1 7  ? -2.313 1.893   0.763  1.00 94.25 7  A 1 
+ATOM 68  C CA  . ARG A 1 7  ? -3.431 2.668   1.290  1.00 94.18 7  A 1 
+ATOM 69  C C   . ARG A 1 7  ? -3.019 3.656   2.380  1.00 94.54 7  A 1 
+ATOM 70  O O   . ARG A 1 7  ? -3.563 4.744   2.464  1.00 92.64 7  A 1 
+ATOM 71  C CB  . ARG A 1 7  ? -4.479 1.698   1.832  1.00 93.48 7  A 1 
+ATOM 72  C CG  . ARG A 1 7  ? -5.702 2.402   2.362  1.00 88.24 7  A 1 
+ATOM 73  C CD  . ARG A 1 7  ? -6.635 1.415   3.004  1.00 88.58 7  A 1 
+ATOM 74  N NE  . ARG A 1 7  ? -7.624 2.058   3.822  1.00 84.92 7  A 1 
+ATOM 75  C CZ  . ARG A 1 7  ? -8.772 2.514   3.375  1.00 82.79 7  A 1 
+ATOM 76  N NH1 . ARG A 1 7  ? -9.075 2.422   2.093  1.00 80.75 7  A 1 
+ATOM 77  N NH2 . ARG A 1 7  ? -9.612 3.066   4.212  1.00 76.92 7  A 1 
+ATOM 78  N N   . ARG A 1 8  ? -2.111 3.302   3.218  1.00 94.08 8  A 1 
+ATOM 79  C CA  . ARG A 1 8  ? -1.689 4.162   4.326  1.00 94.00 8  A 1 
+ATOM 80  C C   . ARG A 1 8  ? -0.858 5.361   3.878  1.00 94.39 8  A 1 
+ATOM 81  O O   . ARG A 1 8  ? -0.815 6.371   4.554  1.00 92.36 8  A 1 
+ATOM 82  C CB  . ARG A 1 8  ? -0.903 3.337   5.341  1.00 93.36 8  A 1 
+ATOM 83  C CG  . ARG A 1 8  ? 0.332  2.704   4.726  1.00 88.75 8  A 1 
+ATOM 84  C CD  . ARG A 1 8  ? 1.029  1.831   5.738  1.00 88.76 8  A 1 
+ATOM 85  N NE  . ARG A 1 8  ? 2.197  1.177   5.183  1.00 85.06 8  A 1 
+ATOM 86  C CZ  . ARG A 1 8  ? 2.914  0.297   5.848  1.00 82.96 8  A 1 
+ATOM 87  N NH1 . ARG A 1 8  ? 2.575  -0.038  7.081  1.00 80.64 8  A 1 
+ATOM 88  N NH2 . ARG A 1 8  ? 3.972  -0.252  5.287  1.00 77.03 8  A 1 
+ATOM 89  N N   . ARG A 1 9  ? -0.198 5.292   2.793  1.00 93.99 9  A 1 
+ATOM 90  C CA  . ARG A 1 9  ? 0.643  6.385   2.304  1.00 93.99 9  A 1 
+ATOM 91  C C   . ARG A 1 9  ? 0.130  6.987   0.992  1.00 94.42 9  A 1 
+ATOM 92  O O   . ARG A 1 9  ? 0.450  8.117   0.658  1.00 92.53 9  A 1 
+ATOM 93  C CB  . ARG A 1 9  ? 2.073  5.876   2.122  1.00 93.44 9  A 1 
+ATOM 94  C CG  . ARG A 1 9  ? 3.053  7.014   1.944  1.00 89.18 9  A 1 
+ATOM 95  C CD  . ARG A 1 9  ? 4.481  6.519   1.885  1.00 89.01 9  A 1 
+ATOM 96  N NE  . ARG A 1 9  ? 5.174  6.716   3.154  1.00 85.32 9  A 1 
+ATOM 97  C CZ  . ARG A 1 9  ? 6.485  6.626   3.282  1.00 83.58 9  A 1 
+ATOM 98  N NH1 . ARG A 1 9  ? 7.252  6.352   2.237  1.00 81.32 9  A 1 
+ATOM 99  N NH2 . ARG A 1 9  ? 7.047  6.807   4.455  1.00 77.77 9  A 1 
+ATOM 100 N N   . ARG A 1 10 ? -0.647 6.258   0.260  1.00 93.43 10 A 1 
+ATOM 101 C CA  . ARG A 1 10 ? -1.191 6.741   -1.015 1.00 93.67 10 A 1 
+ATOM 102 C C   . ARG A 1 10 ? -2.712 6.579   -1.061 1.00 94.12 10 A 1 
+ATOM 103 O O   . ARG A 1 10 ? -3.247 5.930   -1.954 1.00 92.30 10 A 1 
+ATOM 104 C CB  . ARG A 1 10 ? -0.556 5.974   -2.172 1.00 93.32 10 A 1 
+ATOM 105 C CG  . ARG A 1 10 ? 0.941  6.248   -2.285 1.00 88.79 10 A 1 
+ATOM 106 C CD  . ARG A 1 10 ? 1.483  5.660   -3.562 1.00 87.84 10 A 1 
+ATOM 107 N NE  . ARG A 1 10 ? 2.914  5.899   -3.692 1.00 84.28 10 A 1 
+ATOM 108 C CZ  . ARG A 1 10 ? 3.621  5.550   -4.750 1.00 82.09 10 A 1 
+ATOM 109 N NH1 . ARG A 1 10 ? 3.035  4.945   -5.772 1.00 79.89 10 A 1 
+ATOM 110 N NH2 . ARG A 1 10 ? 4.911  5.794   -4.798 1.00 76.13 10 A 1 
+ATOM 111 N N   . ARG A 1 11 ? -3.418 7.155   -0.084 1.00 94.79 11 A 1 
+ATOM 112 C CA  . ARG A 1 11 ? -4.875 7.041   -0.054 1.00 93.75 11 A 1 
+ATOM 113 C C   . ARG A 1 11 ? -5.470 7.738   -1.262 1.00 93.08 11 A 1 
+ATOM 114 O O   . ARG A 1 11 ? -6.447 7.212   -1.828 1.00 91.80 11 A 1 
+ATOM 115 C CB  . ARG A 1 11 ? -5.440 7.671   1.213  1.00 93.54 11 A 1 
+ATOM 116 C CG  . ARG A 1 11 ? -4.948 9.089   1.403  1.00 91.29 11 A 1 
+ATOM 117 C CD  . ARG A 1 11 ? -3.787 9.104   2.329  1.00 90.40 11 A 1 
+ATOM 118 N NE  . ARG A 1 11 ? -3.119 10.389  2.355  1.00 88.63 11 A 1 
+ATOM 119 C CZ  . ARG A 1 11 ? -1.984 10.589  2.957  1.00 86.87 11 A 1 
+ATOM 120 N NH1 . ARG A 1 11 ? -1.376 9.593   3.592  1.00 87.58 11 A 1 
+ATOM 121 N NH2 . ARG A 1 11 ? -1.448 11.781  2.925  1.00 83.34 11 A 1 
+ATOM 122 O OXT . ARG A 1 11 ? -4.947 8.800   -1.635 1.00 87.88 11 A 1 
+#

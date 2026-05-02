@@ -1,0 +1,266 @@
+# By using this file you agree to the legally binding terms of use found at
+# https://github.com/google-deepmind/alphafold3/blob/main/OUTPUT_TERMS_OF_USE.md.
+# To request access to the AlphaFold 3 model parameters, follow the process set
+# out at https://github.com/google-deepmind/alphafold3. You may only use these if
+# received directly from Google. Use is subject to terms of use available at
+# https://github.com/google-deepmind/alphafold3/blob/main/WEIGHTS_TERMS_OF_USE.md.
+data_470
+#
+_entry.id 470
+#
+loop_
+_atom_type.symbol
+C 
+N 
+O 
+S 
+#
+loop_
+_audit_author.name
+_audit_author.pdbx_ordinal
+"Google DeepMind" 1 
+"Isomorphic Labs" 2 
+#
+_audit_conform.dict_location https://raw.githubusercontent.com/ihmwg/ModelCIF/master/dist/mmcif_ma.dic
+_audit_conform.dict_name     mmcif_ma.dic
+_audit_conform.dict_version  1.4.5
+#
+loop_
+_chem_comp.formula
+_chem_comp.formula_weight
+_chem_comp.id
+_chem_comp.mon_nstd_flag
+_chem_comp.name
+_chem_comp.pdbx_smiles
+_chem_comp.pdbx_synonyms
+_chem_comp.type
+"C3 H7 N O2"   89.093  ALA y ALANINE         C[C@H](N)C(O)=O                ? "L-PEPTIDE LINKING" 
+"C4 H7 N O4"   133.103 ASP y "ASPARTIC ACID" N[C@@H](CC(O)=O)C(O)=O         ? "L-PEPTIDE LINKING" 
+"C3 H7 N O2 S" 121.158 CYS y CYSTEINE        N[C@@H](CS)C(O)=O              ? "L-PEPTIDE LINKING" 
+"C5 H9 N O4"   147.129 GLU y "GLUTAMIC ACID" N[C@@H](CCC(O)=O)C(O)=O        ? "L-PEPTIDE LINKING" 
+"C2 H5 N O2"   75.067  GLY y GLYCINE         NCC(O)=O                       ? "PEPTIDE LINKING"   
+"C6 H10 N3 O2" 156.162 HIS y HISTIDINE       N[C@@H](Cc1c[nH]c[nH+]1)C(O)=O ? "L-PEPTIDE LINKING" 
+"C3 H7 N O3"   105.093 SER y SERINE          N[C@@H](CO)C(O)=O              ? "L-PEPTIDE LINKING" 
+#
+_citation.book_publisher          ?
+_citation.country                 UK
+_citation.id                      primary
+_citation.journal_full            Nature
+_citation.journal_id_ASTM         NATUAS
+_citation.journal_id_CSD          0006
+_citation.journal_id_ISSN         0028-0836
+_citation.journal_volume          630
+_citation.page_first              493
+_citation.page_last               500
+_citation.pdbx_database_id_DOI    10.1038/s41586-024-07487-w
+_citation.pdbx_database_id_PubMed 38718835
+_citation.title                   "Accurate structure prediction of biomolecular interactions with AlphaFold 3"
+_citation.year                    2024
+#
+loop_
+_citation_author.citation_id
+_citation_author.name
+_citation_author.ordinal
+primary "Google DeepMind" 1 
+primary "Isomorphic Labs" 2 
+#
+_entity.id               1
+_entity.pdbx_description .
+_entity.type             polymer
+#
+_entity_poly.entity_id      1
+_entity_poly.pdbx_strand_id A
+_entity_poly.type           polypeptide(L)
+#
+loop_
+_entity_poly_seq.entity_id
+_entity_poly_seq.hetero
+_entity_poly_seq.mon_id
+_entity_poly_seq.num
+1 n CYS 1 
+1 n GLU 2 
+1 n HIS 3 
+1 n SER 4 
+1 n HIS 5 
+1 n ASP 6 
+1 n GLY 7 
+1 n ALA 8 
+#
+_ma_data.content_type "model coordinates"
+_ma_data.id           1
+_ma_data.name         Model
+#
+_ma_model_list.data_id          1
+_ma_model_list.model_group_id   1
+_ma_model_list.model_group_name "AlphaFold-beta-20231127 (3.0.0 @ 2026-02-05 14:21:53)"
+_ma_model_list.model_id         1
+_ma_model_list.model_name       "Top ranked model"
+_ma_model_list.model_type       "Ab initio model"
+_ma_model_list.ordinal_id       1
+#
+loop_
+_ma_protocol_step.method_type
+_ma_protocol_step.ordinal_id
+_ma_protocol_step.protocol_id
+_ma_protocol_step.step_id
+"coevolution MSA" 1 1 1 
+"template search" 2 1 2 
+modeling          3 1 3 
+#
+loop_
+_ma_qa_metric.id
+_ma_qa_metric.mode
+_ma_qa_metric.name
+_ma_qa_metric.software_group_id
+_ma_qa_metric.type
+1 global pLDDT 1 pLDDT 
+2 local  pLDDT 1 pLDDT 
+#
+_ma_qa_metric_global.metric_id    1
+_ma_qa_metric_global.metric_value 92.12
+_ma_qa_metric_global.model_id     1
+_ma_qa_metric_global.ordinal_id   1
+#
+_ma_software_group.group_id    1
+_ma_software_group.ordinal_id  1
+_ma_software_group.software_id 1
+#
+_ma_target_entity.data_id   1
+_ma_target_entity.entity_id 1
+_ma_target_entity.origin    .
+#
+_ma_target_entity_instance.asym_id   A
+_ma_target_entity_instance.details   .
+_ma_target_entity_instance.entity_id 1
+#
+loop_
+_pdbx_data_usage.details
+_pdbx_data_usage.id
+_pdbx_data_usage.type
+_pdbx_data_usage.url
+;Non-commercial use only, by using this file you agree to the terms of use found
+at https://github.com/google-deepmind/alphafold3/blob/main/OUTPUT_TERMS_OF_USE.md.
+To request access to the AlphaFold 3 model parameters, follow the process set
+out at https://github.com/google-deepmind/alphafold3. You may only use these if
+received directly from Google. Use is subject to terms of use available at
+https://github.com/google-deepmind/alphafold3/blob/main/WEIGHTS_TERMS_OF_USE.md.
+
+;
+1 license    https://github.com/google-deepmind/alphafold3/blob/main/OUTPUT_TERMS_OF_USE.md 
+;AlphaFold 3 and its output are not intended for, have not been validated for,
+and are not approved for clinical use. They are provided "as-is" without any
+warranty of any kind, whether expressed or implied. No warranty is given that
+use shall not infringe the rights of any third party.
+
+;
+2 disclaimer ?                                                                              
+#
+loop_
+_pdbx_poly_seq_scheme.asym_id
+_pdbx_poly_seq_scheme.auth_seq_num
+_pdbx_poly_seq_scheme.entity_id
+_pdbx_poly_seq_scheme.hetero
+_pdbx_poly_seq_scheme.mon_id
+_pdbx_poly_seq_scheme.pdb_ins_code
+_pdbx_poly_seq_scheme.pdb_seq_num
+_pdbx_poly_seq_scheme.pdb_strand_id
+_pdbx_poly_seq_scheme.seq_id
+A 1 1 n CYS . 1 A 1 
+A 2 1 n GLU . 2 A 2 
+A 3 1 n HIS . 3 A 3 
+A 4 1 n SER . 4 A 4 
+A 5 1 n HIS . 5 A 5 
+A 6 1 n ASP . 6 A 6 
+A 7 1 n GLY . 7 A 7 
+A 8 1 n ALA . 8 A 8 
+#
+_software.classification other
+_software.date           ?
+_software.description    "Structure prediction"
+_software.name           AlphaFold
+_software.pdbx_ordinal   1
+_software.type           package
+_software.version        "AlphaFold-beta-20231127 (f08da88ec964e3929b954fe6a042255eca5c52b3367b4f586577e622ac70125c)"
+#
+_struct_asym.entity_id 1
+_struct_asym.id        A
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1  N N   . CYS A 1 1 ? -7.759 -0.907 -7.869 1.00 84.19 1 A 1 
+ATOM 2  C CA  . CYS A 1 1 ? -6.363 -0.516 -7.578 1.00 88.72 1 A 1 
+ATOM 3  C C   . CYS A 1 1 ? -5.955 -1.032 -6.199 1.00 90.44 1 A 1 
+ATOM 4  O O   . CYS A 1 1 ? -6.789 -1.195 -5.311 1.00 88.46 1 A 1 
+ATOM 5  C CB  . CYS A 1 1 ? -6.224 1.013  -7.608 1.00 85.27 1 A 1 
+ATOM 6  S SG  . CYS A 1 1 ? -7.515 1.858  -6.670 1.00 84.45 1 A 1 
+ATOM 7  N N   . GLU A 1 2 ? -4.676 -1.311 -6.036 1.00 90.47 2 A 1 
+ATOM 8  C CA  . GLU A 1 2 ? -4.151 -1.830 -4.766 1.00 93.98 2 A 1 
+ATOM 9  C C   . GLU A 1 2 ? -3.379 -0.739 -4.028 1.00 95.07 2 A 1 
+ATOM 10 O O   . GLU A 1 2 ? -2.644 0.031  -4.643 1.00 92.59 2 A 1 
+ATOM 11 C CB  . GLU A 1 2 ? -3.230 -3.022 -5.047 1.00 91.65 2 A 1 
+ATOM 12 C CG  . GLU A 1 2 ? -3.983 -4.199 -5.658 1.00 86.80 2 A 1 
+ATOM 13 C CD  . GLU A 1 2 ? -3.044 -5.307 -6.104 1.00 85.07 2 A 1 
+ATOM 14 O OE1 . GLU A 1 2 ? -1.822 -5.170 -5.904 1.00 80.01 2 A 1 
+ATOM 15 O OE2 . GLU A 1 2 ? -3.525 -6.298 -6.669 1.00 81.63 2 A 1 
+ATOM 16 N N   . HIS A 1 3 ? -3.556 -0.689 -2.700 1.00 94.38 3 A 1 
+ATOM 17 C CA  . HIS A 1 3 ? -2.857 0.308  -1.882 1.00 95.18 3 A 1 
+ATOM 18 C C   . HIS A 1 3 ? -2.432 -0.342 -0.570 1.00 96.12 3 A 1 
+ATOM 19 O O   . HIS A 1 3 ? -3.273 -0.871 0.163  1.00 95.53 3 A 1 
+ATOM 20 C CB  . HIS A 1 3 ? -3.784 1.490  -1.605 1.00 94.07 3 A 1 
+ATOM 21 C CG  . HIS A 1 3 ? -3.046 2.673  -1.044 1.00 93.09 3 A 1 
+ATOM 22 N ND1 . HIS A 1 3 ? -2.448 3.633  -1.818 1.00 89.95 3 A 1 
+ATOM 23 C CD2 . HIS A 1 3 ? -2.841 3.037  0.248  1.00 89.92 3 A 1 
+ATOM 24 C CE1 . HIS A 1 3 ? -1.885 4.542  -1.034 1.00 90.04 3 A 1 
+ATOM 25 N NE2 . HIS A 1 3 ? -2.105 4.215  0.242  1.00 90.87 3 A 1 
+ATOM 26 N N   . SER A 1 4 ? -1.152 -0.332 -0.275 1.00 95.67 4 A 1 
+ATOM 27 C CA  . SER A 1 4 ? -0.627 -0.962 0.938  1.00 95.60 4 A 1 
+ATOM 28 C C   . SER A 1 4 ? 0.218  0.015  1.752  1.00 95.95 4 A 1 
+ATOM 29 O O   . SER A 1 4 ? 0.840  0.924  1.197  1.00 94.76 4 A 1 
+ATOM 30 C CB  . SER A 1 4 ? 0.225  -2.178 0.572  1.00 94.38 4 A 1 
+ATOM 31 O OG  . SER A 1 4 ? -0.512 -3.081 -0.228 1.00 91.55 4 A 1 
+ATOM 32 N N   . HIS A 1 5 ? 0.245  -0.195 3.062  1.00 94.79 5 A 1 
+ATOM 33 C CA  . HIS A 1 5 ? 1.065  0.621  3.961  1.00 95.87 5 A 1 
+ATOM 34 C C   . HIS A 1 5 ? 1.923  -0.293 4.826  1.00 96.43 5 A 1 
+ATOM 35 O O   . HIS A 1 5 ? 1.549  -1.436 5.101  1.00 95.78 5 A 1 
+ATOM 36 C CB  . HIS A 1 5 ? 0.179  1.474  4.875  1.00 94.93 5 A 1 
+ATOM 37 C CG  . HIS A 1 5 ? -0.396 2.677  4.176  1.00 94.34 5 A 1 
+ATOM 38 N ND1 . HIS A 1 5 ? 0.312  3.822  3.937  1.00 90.34 5 A 1 
+ATOM 39 C CD2 . HIS A 1 5 ? -1.650 2.891  3.703  1.00 91.32 5 A 1 
+ATOM 40 C CE1 . HIS A 1 5 ? -0.464 4.701  3.328  1.00 91.07 5 A 1 
+ATOM 41 N NE2 . HIS A 1 5 ? -1.682 4.169  3.168  1.00 91.32 5 A 1 
+ATOM 42 N N   . ASP A 1 6 ? 3.064  0.213  5.263  1.00 96.21 6 A 1 
+ATOM 43 C CA  . ASP A 1 6 ? 3.956  -0.560 6.130  1.00 96.54 6 A 1 
+ATOM 44 C C   . ASP A 1 6 ? 4.440  0.353  7.249  1.00 96.89 6 A 1 
+ATOM 45 O O   . ASP A 1 6 ? 5.214  1.280  7.005  1.00 96.11 6 A 1 
+ATOM 46 C CB  . ASP A 1 6 ? 5.139  -1.087 5.309  1.00 95.17 6 A 1 
+ATOM 47 C CG  . ASP A 1 6 ? 5.895  -2.179 6.043  1.00 93.08 6 A 1 
+ATOM 48 O OD1 . ASP A 1 6 ? 5.736  -2.305 7.265  1.00 92.71 6 A 1 
+ATOM 49 O OD2 . ASP A 1 6 ? 6.656  -2.916 5.382  1.00 90.84 6 A 1 
+ATOM 50 N N   . GLY A 1 7 ? 3.970  0.132  8.469  1.00 95.14 7 A 1 
+ATOM 51 C CA  . GLY A 1 7 ? 4.373  0.960  9.596  1.00 94.20 7 A 1 
+ATOM 52 C C   . GLY A 1 7 ? 3.964  0.343  10.920 1.00 94.63 7 A 1 
+ATOM 53 O O   . GLY A 1 7 ? 3.600  -0.828 10.992 1.00 93.82 7 A 1 
+ATOM 54 N N   . ALA A 1 8 ? 4.007  1.155  11.967 1.00 94.94 8 A 1 
+ATOM 55 C CA  . ALA A 1 8 ? 3.669  0.685  13.301 1.00 94.53 8 A 1 
+ATOM 56 C C   . ALA A 1 8 ? 2.895  1.764  14.073 1.00 93.27 8 A 1 
+ATOM 57 O O   . ALA A 1 8 ? 2.751  2.895  13.581 1.00 89.90 8 A 1 
+ATOM 58 C CB  . ALA A 1 8 ? 4.958  0.288  14.033 1.00 91.92 8 A 1 
+ATOM 59 O OXT . ALA A 1 8 ? 2.422  1.502  15.180 1.00 83.06 8 A 1 
+#
